@@ -1,0 +1,281 @@
+*{
+margin: 0;
+padding: 0;
+}
+
+.section_padding{
+
+padding: 80px 0px;
+}
+.section_title h2 {
+    font-size: 26px;
+    font-weight: 500;
+    text-align: center;
+    margin-bottom: 60px;
+
+}
+
+
+/****** Navbar style  *****/
+
+.navBar{
+background-color: #fff;
+height: 80px;
+width: 100%;
+}
+nav{
+display: inline-block;
+}
+
+#leftNav{
+        margin: 20px 0px 0px 70px;
+}
+
+#rightNav{
+            float: right;
+            margin: 20px 70px 0px 0px;
+            }
+#logo {
+    vertical-align: middle;
+    }
+
+nav a{
+        text-decoration: none;
+        margin-left: 30px;
+        color: #9A9A9A;
+        font-size: 18px;
+        }
+
+nav a:hover {
+text-decoration: none;
+}
+#button{
+            width: 100px;
+            background-color: #0069FF;
+            color: #ffffff;
+            border-radius: 5px;
+            padding: 10px;
+            }
+
+/****** Navbar style End  *****/
+
+/****** Form section style   *****/
+
+.form_section{
+                    height: 550px;
+                    background-color: #60a1ff ;
+                    width: 100%;
+                    }
+.contact_form h2{
+                    font-size: 30px;
+                    color: #fff;
+                    font-weight: 400;
+                    margin-bottom: 20px;
+                    float: left;
+                    }
+
+
+.contact_form input{
+                    background-color: #7aa8f4;
+                    border: 1px solid ghostwhite;
+                    }
+
+.contact_form input::placeholder{
+                                color: #ffffff;
+                                }
+.contact_form .account_btn{
+
+                            background-color: white;
+                            width: 100%;
+                            height: 40px;
+                            line-height: 100%;
+                            text-align: center;
+                            font-weight: bold;
+                            font-size: 18px;
+                            }
+
+
+
+.column{
+        padding: 10px;
+        }
+.contact_form p{
+                font-size: 18px;
+                color: #fff;
+                text-align: justify;
+                margin-top: 10px;
+                }
+
+.contact_form p a{
+                    text-decoration: underline;
+                    color: white;
+                    }
+
+/****** Form section style end  *****/
+
+
+/****** service area style  *****/
+
+.service_section{
+    text-align: center;
+    border-bottom: 1px solid rgba(91, 92, 75, 0.15);
+
+}
+
+.service_section h5{
+    font-weight: 600;
+
+}
+
+.service_section p{
+    color: black;
+    font-size: 12px;
+    margin-left: 26%;
+}
+
+/*.service_section img{*/
+    /*width: 100px;*/
+    /*height:80px;*/
+/*}*/
+
+
+.service_section img{
+    height: 100px;
+    width: 80px;
+}
+
+
+/****************       pricing area style  ****************/
+
+.price_section{
+    text-align: center;
+    border-bottom: 1px solid rgba(91, 92, 75, 0.15);
+
+}
+.price_box{
+    margin-left: 200px;
+}
+
+.price_section .price_div{
+    padding: 30px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    border-radius: 5px;
+    margin-top: 30px;
+}
+.price_section .price_div li{
+    list-style: none;
+}
+
+/*.price_section .price_div button{*/
+    /*width: 100%;*/
+/*}*/
+
+
+.price_div p{
+    color: black;
+    font-size: 16px;
+    font-weight: 200;
+}
+
+
+section ul li{
+    list-style: none;
+}
+
+.graph_section{
+    border-bottom: 1px solid rgba(91, 92, 75, 0.15);
+    text-align: center;
+}
+
+
+
+
+/****** client area style  *****/
+
+.client_section {
+    text-align: center;
+}
+
+.client_logo{
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.client_logo img {
+    margin-left: 15px;
+}
+
+
+/*#img_sec {*/
+    /*padding-left: 20px;*/
+/*}*/
+
+
+
+/****** footer area style  *****/
+
+/*input{*/
+/*!*width: 400px;*!*/
+/*height: 40px;*/
+/*border-radius: 5px;*/
+/*background-color: #4B95FF;*/
+/*color: #fff;*/
+/*border: 1px solid #fff;*/
+/*padding: 2px;*/
+/*}*/
+
+
+button{
+    /*width: 405px;*/
+    height: 45px;
+    color: #48A3FF;
+    font-size: 15px;
+    font-weight: bold;
+    border: 1px solid #fff;
+    border-radius: 5px;
+}
+.column1{
+    float: left;
+    padding: 80px;
+    margin-left: 30px;
+
+}
+p{
+    font-size: 24px;
+    font: Tahoma;
+}
+
+.column2{
+    float: right;
+    padding: 80px;
+    margin-right: 50px;
+}
+footer{
+    background-color: black;
+    /*display: flex;*/
+    /*flex-direction: row;*/
+    color: white;
+    width: 100%;
+    padding: 5%;
+}
+
+footer p{
+    font-size: 12px;
+}
+
+
+
+}
+
+
+
+/*.section1,.section2,.section3,.section4,.section5,.section6{*/
+    /*flex: 1;*/
+/*}*/
+
+
+
+/* menu css*/
+
+
